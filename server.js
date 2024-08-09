@@ -73,6 +73,3 @@ app.delete('/usuarios/:id', async (req, res) => {
     res.status(200).json({ message: 'Usuario deletado com sucesso' })
 })
 app.listen(3000)
-
-// login: molossi
-// senha: r1yf1sjJXzgPjZTC
